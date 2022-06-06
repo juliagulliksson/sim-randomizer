@@ -1,9 +1,9 @@
-type Personality = {
+export type PersonalityTrait = {
   name: string;
   points: number;
 };
 
-const personalities: Personality[] = [
+export const personalityTemplate: PersonalityTrait[] = [
   {
     name: "Neat",
     points: 0,
@@ -26,5 +26,3 @@ const personalities: Personality[] = [
     points: 0,
   },
 ];
-
-export default personalities;
